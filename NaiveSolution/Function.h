@@ -34,7 +34,6 @@ public:
 	/*****COMMUNICATION FUNCTIONS*****/
 
 	void acknowledge(Plane* plane);
-	void youCouldLandNow(); //Grants the plane landing permission
 	void keepingSafeDistance(Plane* plane); //Tell this plane to keep safe distance from other planes
 	bool notifyLanding(Plane* plane); //Tell other planes that this plane wants to land
 	void notifyLandingFinished(); //Some other planes has finished landing
